@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,34 +12,41 @@
             padding: 0;
             background-color: #f0f0f0;
         }
+
         header {
             background-color: #1E90FF;
             color: #fff;
             padding: 20px;
             text-align: center;
         }
+
         nav {
             background-color: #4682B4;
             padding: 10px;
             text-align: center;
         }
+
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
         }
+
         nav a:hover {
             color: #ccc;
         }
+
         section {
             padding: 20px;
         }
+
         footer {
             background-color: #1E90FF;
             color: #fff;
             padding: 10px;
             text-align: center;
         }
+
         /* Parallax styles */
         .parallax {
             background-attachment: fixed;
@@ -48,17 +56,26 @@
             height: 500px;
             margin-top: 20px;
         }
+
         .parallax1 {
             background-image: url('https://www.pluggedin.com/wp-content/uploads/2019/12/rio-1024x640.jpg');
         }
+
         .parallax2 {
             background-image: url('https://www.pluggedin.com/wp-content/uploads/2019/12/rio-1024x640.jpg');
         }
+
         .parallax3 {
             background-image: url('https://www.pluggedin.com/wp-content/uploads/2019/12/rio-1024x640.jpg');
         }
+
+        .gallery {
+            display: flex;
+
+        }
     </style>
 </head>
+
 <body>
     <header>
         <h1>Rio - the movie series</h1>
@@ -73,14 +90,31 @@
     </nav>
     <section>
         <h2>Info</h2>
-        <p>Directed by Carlos Saldanha and produced by Blue Sky Studios and 20th Century Fox Animation, the Rio film series comprises two animated adventures set in the vibrant landscapes of Rio de Janeiro and the Amazon rainforest.</p>
+        <p>Directed by Carlos Saldanha and produced by Blue Sky Studios and 20th Century Fox Animation, the Rio film
+            series comprises two animated adventures set in the vibrant landscapes of Rio de Janeiro and the Amazon
+            rainforest.</p>
     </section>
     <section>
         <h2>Summary</h2>
         <p>Rio (2011):
-            In the vibrant city of Rio de Janeiro, Blu, a rare blue macaw who can't fly, lives a comfortable life with his human owner Linda. Their peaceful existence is disrupted when they learn that Blu is the last male of his species and needs to mate with Jewel, a feisty female macaw, to save their kind. The journey takes them on an adventure filled with colorful characters, including Nico, Pedro, and Rafael, as they navigate through the bustling streets and lush landscapes of Rio. Along the way, Blu and Jewel must overcome their differences and learn to embrace their true selves while evading the clutches of bird smugglers. Through teamwork, courage, and love, Blu and Jewel discover the beauty of freedom and the importance of family, ultimately finding their wings and soaring through the skies together.</p>
+            In the vibrant city of Rio de Janeiro, Blu, a rare blue macaw who can't fly, lives a comfortable life with
+            his human owner Linda. Their peaceful existence is disrupted when they learn that Blu is the last male of
+            his species and needs to mate with Jewel, a feisty female macaw, to save their kind. The journey takes them
+            on an adventure filled with colorful characters, including Nico, Pedro, and Rafael, as they navigate through
+            the bustling streets and lush landscapes of Rio. Along the way, Blu and Jewel must overcome their
+            differences and learn to embrace their true selves while evading the clutches of bird smugglers. Through
+            teamwork, courage, and love, Blu and Jewel discover the beauty of freedom and the importance of family,
+            ultimately finding their wings and soaring through the skies together.</p>
         <p>Rio 2 (2014):
-            In the sequel to Rio, Blu, Jewel, and their three children leave the comfort of Rio de Janeiro to embark on a wild Amazon adventure. As they journey deep into the rainforest, they encounter old friends and new adversaries, including Jewel's long-lost family of wild macaws. Blu struggles to fit in with his new surroundings, while Jewel reconnects with her roots and faces the charismatic Roberto, her childhood friend. Meanwhile, the villainous Nigel plots his revenge on Blu and his family, teaming up with Gabi, a poisonous frog, and Charlie, a silent anteater. Amidst the lush landscapes and samba beats, Blu must prove himself as a true hero to protect his family and their home. With themes of environmental conservation and embracing diversity, Rio 2 is a colorful and musical journey celebrating the wonders of the Amazon and the bonds of family.</p>      
+            In the sequel to Rio, Blu, Jewel, and their three children leave the comfort of Rio de Janeiro to embark on
+            a wild Amazon adventure. As they journey deep into the rainforest, they encounter old friends and new
+            adversaries, including Jewel's long-lost family of wild macaws. Blu struggles to fit in with his new
+            surroundings, while Jewel reconnects with her roots and faces the charismatic Roberto, her childhood friend.
+            Meanwhile, the villainous Nigel plots his revenge on Blu and his family, teaming up with Gabi, a poisonous
+            frog, and Charlie, a silent anteater. Amidst the lush landscapes and samba beats, Blu must prove himself as
+            a true hero to protect his family and their home. With themes of environmental conservation and embracing
+            diversity, Rio 2 is a colorful and musical journey celebrating the wonders of the Amazon and the bonds of
+            family.</p>
     </section>
     <section>
         <h2>Characters</h2>
@@ -97,37 +131,44 @@
     <div class="parallax parallax1"></div>
     <section>
         <h2>Gallery</h2>
-        <p>Rio: movie cover</p>
-        <img src="Rio2011Poster.jpg"width="500">
-        <p>Rio 2: movie cover</p>
-        <img src="Rio_2_Poster.JPG"width="500">
+        <div class="gallery">
+            <div>
+                <p>Rio: movie cover</p>
+                <img src="Rio2011Poster.jpg" width="500">
+            </div>
+            <div>
+                <p>Rio 2: movie cover</p>
+                <img src="Rio_2_Poster.JPG" width="500">
+            </div>
+        </div>
     </section>
     <!-- Parallax Section 2 -->
     <div class="parallax parallax2"></div>
     <section>
         <h2>Personal opinion</h2>
         <p>I really like the movie and I have watched several times. </p>
-    <!-- Parallax Section 3 -->
-    <div class="parallax parallax3"></div>
-    <section>
-        <h2>Time line of the movies</h2>
-        <div class="timeline">
-            <div class="container left">
-              <div class="content">
-                <h2>2011</h2>
-                <p>Rio</p>
-              </div>
+        <!-- Parallax Section 3 -->
+        <div class="parallax parallax3"></div>
+        <section>
+            <h2>Time line of the movies</h2>
+            <div class="timeline">
+                <div class="container left">
+                    <div class="content">
+                        <h2>2011</h2>
+                        <p>Rio</p>
+                    </div>
+                </div>
+                <div class="container right">
+                    <div class="content">
+                        <h2>2014</h2>
+                        <p>Rio 2</p>
+                    </div>
+                </div>
             </div>
-            <div class="container right">
-              <div class="content">
-                <h2>2014</h2>
-                <p>Rio 2</p>
-              </div>
-            </div>
-          </div> 
-    </section>
-    <footer>
-        <p>&copy; 2024 Rio Movie Website. by Lorena</p>
-    </footer>
+        </section>
+        <footer>
+            <p>&copy; 2024 Rio Movie Website. by Lorena</p>
+        </footer>
 </body>
+
 </html>
